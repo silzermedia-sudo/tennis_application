@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Tennis Game",
+    "slug": "tennis-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a2e"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.tennisapp.game"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a2e"
+      },
+      "package": "com.tennisapp.game"
+    },
+    "sdkVersion": "52.0.0"
+  }
+}
