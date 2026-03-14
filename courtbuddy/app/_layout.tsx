@@ -1,0 +1,26 @@
+import '../global.css';
+import { Stack } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
+import { Colors } from '../constants/colors';
+
+export default function RootLayout() {
+  return (
+    <>
+      <StatusBar style="light" />
+      <Stack
+        screenOptions={{
+          headerShown: false,
+          contentStyle: { backgroundColor: Colors.bg },
+          animation: 'slide_from_right',
+        }}
+      >
+        <Stack.Screen name="index" />
+        <Stack.Screen name="(auth)" />
+        <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="court/[id]" />
+        <Stack.Screen name="match-result" />
+        <Stack.Screen name="notifications" />
+      </Stack>
+    </>
+  );
+}
