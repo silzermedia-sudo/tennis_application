@@ -16,6 +16,10 @@
         "backgroundColor": "#0D0D0D"
       }
     },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
     "plugins": [
       "expo-router"
     ]
